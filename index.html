@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+    <div class="mobile">
+        <div class="mobile-logo">
+            <img src="images/facebook.svg" alt="">
+            <div class="mobile-logo-icons">
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+        </div>
+        <div class="home-icons">
+            <i class="fa-solid fa-house"></i>
+            <i class="fa-solid fa-film"></i>
+            <i class="fa-solid fa-store"></i>
+            <i class="fa-regular fa-user"></i>
+            <i class="fa-regular fa-bell"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <div class="header">
+        <div class="logo">
+            <i class="fa-brands fa-facebook"></i>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search Facebook">
+            </div>
+        </div>
+        <div class="categories">
+            <ul>
+                <li class="active"><i  class="fa-solid fa-house"></i></li>
+                <li><img src="images/video.png" alt=""></li>
+                <li><i class="fa-solid fa-store"></i></li>
+                <li><i class="fa-solid fa-users"></i></li>
+                <li><i class="fa-solid fa-gamepad"></i></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-regular fa-user"></i>
+        </div>
+    </div>
+    <div class="main-app">
+        <!---left navigation-->
+        <div class="left">
+            <div class="link">
+                <img src="images/profile-pic.png" alt="">
+                <div><h5>Dante Alighieri</h5></div>
+            </div>
+            <div class="link">
+                <i id="blue" class="fa-solid fa-clock"></i>
+                <div><h5>Memories</h5></div>
+            </div>
+            <div class="link">
+                <div  class="hicon"><i id="purple" class="fa-solid fa-bookmark"></i></div>
+                <div class="text"><h5>Saved</h5></div>
+            </div>
+            <div class="link">
+                <i id="blue" class="fa-solid fa-users"></i>
+                <div><h5>Groups</h5></div>
+            </div>
+            <div class="link">
+                <i id="blue" class="fa-solid fa-circle-play"></i>
+                <div><h5>Videos</h5></div>
+            </div>
+            <div class="link">
+                <i id="blue" class="fa-solid fa-store"></i>
+                <div><h5>Market place</h5></div>
+            </div>
+            <div class="link">
+                <i class="fa-regular fa-comment-dots"></i>
+                <div><h5>Feeds</h5></div>
+            </div>
+            <div class="link">
+                <i id="red" class="fa-regular fa-calendar-days"></i>
+                <div><h5>Events</h5></div>
+            </div>
+            <div class="link">
+                <i id="blue" class="fa-solid fa-signal"></i>
+                <div><h5>Ads manager</h5></div>
+            </div>
+            <div class="link">
+                <i id="heart" class="fa-solid fa-heart"></i>
+                <div><h5>Fundraisers</h5></div>
+            </div>
+            <div class="link">
+                <i id="see-more" class="fa-solid fa-angle-down"></i>
+                <div><h5>see more</h5></div>
+            </div>
+        </div>
+        <!--middle navigation-->
+        <div class="middle">
+           <div class="stories">
+            <div class="story">
+                <img src="images/status-1.png" alt="">
+                <h5>Your story</h5>
+                <button><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <div class="story">
+                <img src="images/status-2.png" alt="">
+                <h5>Laura Whites</h5>
+                <img id="user" src="images/member-1.png" alt="">
+            </div>
+            <div class="story">
+               
+                <img src="images/status-3.png" alt="">
+                <h5>Michigan Passion</h5>
+                <img id="user" src="images/member-2.png" alt="">
+            
+            </div>
+            <div class="story">
+                <img src="images/status-4.png" alt="">
+                <h5>Lindsey Kimms</h5>
+                <img id="user" src="images/member-3.png" alt="">
+            </div>
+            <div class="story">
+                <img src="images/status-5.png" alt="">
+                <h5>Cole Pfeifer</h5>
+                <img id="user" src="images/member-4.png" alt="">
+            </div>
+           </div>
+           <div class="mood">
+            <div class="your-mind">
+                <img src="images/profile-pic.png" alt="">
+                <div class="question">
+                    <p>What's on your mind, Dante?</p>
+                </div>
+            </div>
+            <hr>
+            <div class="activities">
+                <div class="activity">
+                    <div><img src="images/live-video.png" alt=""></div>
+                    <div><p>Live video</p></div>
+                </div>
+                <div class="activity">
+                    <div><img src="images/photo.png" alt=""></div>
+                    <div><p>Photo/video</p></div>
+                </div>
+                <div class="activity">
+                    <div><img src="images/feeling.png" alt=""></div>
+                    <div><p>Feeling/activity</p></div>
+                </div>
+            </div>
+           </div>
+           <div class="post">
+            <div class="profile">
+                    <div class="stamp">
+                    <img src="images/profile-pic.png" alt="">
+                    <div class="name">
+                    <h5>Dante Alighieri</h5>
+                    <h6>June 24 2021 13:40pm</h6>
+                </div>
+                </div>
+                <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            </div>
+            <p>Beacause your question searches for deep meaning.I shall explain in simple words</p>
+            <img id="post" src="images/feed-image-1.png" alt="">
+            <div class="btn">
+                <span><img src="images/like.png" alt="">321</span>
+               <span><img src="images/comments.png" alt="">45</span> 
+                <span><img src="images/share.png" alt="">112</span>
+            </div>
+           </div>
+           <div class="post">
+            <div class="profile">
+                <div class="stamp">
+                    <img src="images/profile-pic.png" alt="">
+                <div class="name">
+                    <h5>Dante Alighieri</h5>
+                    <h6>June 24 2021 13:40pm</h6>
+                </div>
+                </div>
+                <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            </div>
+            <p>In the middle of the journey of our life , I came to myself with in a dark wood where the straight path was lost</p>
+            <img id="post" src="images/feed-image-2.png" alt="">
+            <div class="btn">
+                <span><img src="images/like.png" alt="">256</span>
+               <span><img src="images/comments.png" alt="">30</span> 
+                <span><img src="images/share.png" alt="">89</span>
+            </div>
+           </div>
+           <div class="post">
+            <div class="profile">
+                <div class="stamp">
+                   <img src="images/profile-pic.png" alt="">
+                <div class="name">
+                    <h5>Dante Alighieri</h5>
+                    <h6>June 24 2021 13:40pm</h6>
+                </div> 
+                </div>
+                <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            </div>
+            <p>Feeling Bragadocious with my learned friends at the <span>@casicotis</span> coding hub.You can either watch it happen or be part of it</p>
+            <img id="post" src="images/feed-image-3.png" alt="">
+            <div class="btn">
+                <span><img src="images/like.png" alt="">619</span>
+               <span><img src="images/comments.png" alt="">213</span> 
+                <span><img src="images/share.png" alt="">500</span>
+            </div>
+           </div>
+           <div class="post">
+            <div class="profile">
+                <div class="stamp">
+                   <img src="images/profile-pic.png" alt="">
+                <div class="name">
+                    <h5>Dante Alighieri</h5>
+                    <h6>June 24 2021 13:40pm</h6>
+                </div> 
+                </div>
+                
+                <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            </div>
+            <p>The wisest are the most annoyed at te loss of time...</p>
+            <img id="post" src="images/feed-image-4.png" alt="">
+            <div class="btn">
+                <span><img src="images/like.png" alt="">179</span>
+               <span><img src="images/comments.png" alt="">13</span> 
+                <span><img src="images/share.png" alt="">46</span>
+            </div>
+           </div>
+           <div class="post">
+            <div class="profile">
+                <div class="stamp">
+                    <img src="images/profile-pic.png" alt="">
+                <div class="name">
+                    <h5>Dante Alighieri</h5>
+                    <h6>June 24 2021 13:40pm</h6>
+                </div> 
+                </div>
+               
+                <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            </div>
+            <p>Love insists that the loved love back..Yes I do!</p>
+            <img id="post" src="images/feed-image-5.png" alt="">
+            <div class="btn">
+                <span><img src="images/like.png" alt="">318</span>
+               <span><img src="images/comments.png" alt="">71</span> 
+                <span><img src="images/share.png" alt="">300</span>
+            </div>
+           </div>
+           <div class="footer">
+            <button>See more..</button>
+           <hr>
+            <h6>facebook clone by Antony Karanja</h6>
+           </div>
+        </div>
+        <!--rigth navigation-->
+        <div class="right">
+            <div class="sponsored">
+                <h4>sponsored</h4>
+                <div class="ad">
+                    <img src="images/alx.jpg" alt="">
+                    <div class="write">
+                        <h5>Sign Up Today</h5>
+                        <h6>tech.alxafrica.com</h6>
+                    </div>
+                    <div class="ad-menu">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                <div class="ad">
+                    <img src="images/resume.jpg" alt="">
+                    <div class="write">
+                        <h5>Install resumeGPT</h5>
+                        <h6>tech.alxafrica.com</h6>
+                    </div>
+                    <div class="ad-menu">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="contacts">
+                    <div class="contact-bar">
+                       <div><h5>Contacts</h5></div> 
+                       <div class="contact-icons">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                       </div>
+                    </div>
+                    <div class="contact-people">
+                        <div class="link online">
+                            <img src="images/member-1.png" alt="">
+                            <div><h5>Laura whites</h5></div>
+                        </div>
+                        <div class="link online">
+                            <img src="images/member-2.png" alt="">
+                            <div><h5>Michigan Passion</h5></div>
+                        </div>
+                        <div class="link online">
+                            <img src="images/member-3.png" alt="">
+                            <div><h5>Lindsey Kimms</h5></div>
+                        </div>
+                        <div class="link online">
+                            <img src="images/member-4.png" alt="">
+                            <div><h5>Cole Pfeifer</h5></div>
+                        </div>
+                        <div class="link online">
+                            <img src="images/member-5.png" alt="">
+                            <div><h5>Peter Morgan</h5></div>
+                        </div>
+                        <div class="link online">
+                            <img src="images/member-6.png" alt="">
+                            <div><h5>Whitnney Croft</h5></div>
+                        </div>
+                        <div class="link online">
+                            <img src="images/member-7.png" alt="">
+                            <div><h5>Mimi Jams</h5></div>
+                        </div>
+                        <div class="link online">
+                            <img src="images/member-8.png" alt="">
+                            <div><h5>Sonya Kumar</h5></div>
+                        </div>
+                        <div class="link online">
+                            <img src="images/member-9.png" alt="">
+                            <div><h5>Samer Samir</h5></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
