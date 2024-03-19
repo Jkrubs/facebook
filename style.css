@@ -595,3 +595,16 @@ body{
         font-size:10px ;
     }
 }
+
+@media(max-width:400px){
+    .question p{
+        font-size: 12px;
+    }
+    .activity img{
+        width: 16px;
+
+    }
+    .activity p{
+        font-size: 8px;
+    }
+}
